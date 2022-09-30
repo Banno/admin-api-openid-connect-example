@@ -1,0 +1,18 @@
+{
+  "name": "admin-api-openid-connect-example",
+  "version": "1.0.0",
+  "description": "Example of how to authenticate with the Banno Admin API.",
+  "main": "server.js",
+  "scripts": {
+    "start": "ENVIRONMENT='local' node server.js"
+  },
+  "author": "Sam Couch",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "node-fetch": "^2.6.7",
+    "openid-client": "^5.1.9",
+    "passport": "^0.6.0"
+  }
+}
