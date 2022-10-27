@@ -22,7 +22,10 @@ If you don't have these installed on your system already, you may want to instal
 
 The cloned repository includes everything that you need for the next step.
 
-## 3) Install project dependencies
+## 3) Credentials
+In the `config.js` file add in your `client_id` and `client_secret`.
+
+## 4) Install project dependencies
 
 From the repository root folder, run this command in the terminal:
 
