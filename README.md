@@ -48,7 +48,7 @@ Environment: local
 Server listening on https://localhost:8080...
 ```
 
-Next, go to https://localhost:8080/ in a web browser.
+Next, go to https://localhost:8080/login.html in a web browser
 
 Click on `Sign in with Banno` and sign in with your Banno Username and Password.
 
