@@ -76,7 +76,6 @@ const env = process.env.ENVIRONMENT;
     secret: 'foo',
     resave: false,
     saveUninitialized: true,
-    // This example project can be used to build a plugin using the Plugin Framework.
     // Note that this example project's particular cookie technique will only work in Chromium-based browsers e.g.
     // - Google Chrome
     // - newer versions of Microsoft Edge
@@ -128,8 +127,6 @@ const env = process.env.ENVIRONMENT;
   app.get('/auth/cb', (req, res, next) => {
     // This is an undocumented workaround for a quirk in how sessions are handled by this project's
     // specific OpenID Connect client (https://github.com/panva/node-openid-client) dependency.
-    //
-    // The issue presents itself when using this example project to build a plugin for the Plugin Framework.
     //
     // Developers must ensure that protections are put in place to ensure that requests arriving
     // without an existing session and state are not vulnerable to cross-site request forgeries.
