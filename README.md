@@ -10,6 +10,8 @@ If you prefer to see a simple example of just the auth code flow for the Admin A
 
 Before you get started, you'll need to have access to the Banno Back Office.
 
+You'll need to get access from the back office administrator at your financial institution.
+
 # Installation
 
 ## 1) Install software prerequisites
