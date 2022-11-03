@@ -75,20 +75,7 @@ const env = process.env.ENVIRONMENT;
   app.use(session({
     secret: 'foo',
     resave: false,
-    saveUninitialized: true,
-    // Note that this example project's particular cookie technique will only work in Chromium-based browsers e.g.
-    // - Google Chrome
-    // - newer versions of Microsoft Edge
-    //
-    // Note that these cookies are going to be blocked by Chromium-based browsers in the future, and are already
-    // blocked by Safari and Firefox by default.
-    //
-    // Safari can be made to work by disabling the "Prevent cross-site tracking" option. This will work for the developer,
-    // but isn't a solution for production usage.
-    cookie: {
-      sameSite: 'none',
-      secure: true
-    }
+    saveUninitialized: true
   }));
 
   app.use(passport.initialize());
